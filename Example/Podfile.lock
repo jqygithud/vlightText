@@ -1,5 +1,5 @@
 PODS:
-  - vlightText (0.1.0)
+  - vlightText (0.1.2)
 
 DEPENDENCIES:
   - vlightText (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  vlightText: 5bba16c17eb2ca5f230ba2961b77a20aef55b9ed
+  vlightText: 80ad5adc2fbebb5dfd167be2edfbedd7e664bd15
 
 PODFILE CHECKSUM: cde5253664ff49a3323abda6eeefbc688755fe52
 
