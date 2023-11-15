@@ -1,0 +1,16 @@
+PODS:
+  - vlightText (0.1.0)
+
+DEPENDENCIES:
+  - vlightText (from `../`)
+
+EXTERNAL SOURCES:
+  vlightText:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  vlightText: 5bba16c17eb2ca5f230ba2961b77a20aef55b9ed
+
+PODFILE CHECKSUM: cde5253664ff49a3323abda6eeefbc688755fe52
+
+COCOAPODS: 1.13.0

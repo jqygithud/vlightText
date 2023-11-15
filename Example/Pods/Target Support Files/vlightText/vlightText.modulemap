@@ -1,0 +1,6 @@
+framework module vlightText {
+  umbrella header "vlightText-umbrella.h"
+
+  export *
+  module * { export * }
+}

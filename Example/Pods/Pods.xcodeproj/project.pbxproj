@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2976E3B8432BA474BCEE94304DF66F0D /* Pods-vlightText_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADB64B06B6C0CE824745EEB2DE476CF4 /* Pods-vlightText_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B01589F571CA23FA806C42746DCE220 /* vlightText-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E21FBEB85CCDBFE4EFBC8BC949DB1E /* vlightText-dummy.m */; };
+		40FBCA36FFAE4C91A30F3570BADDFD25 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF587BCFE5A8570F8504C60A0093A84 /* ReplaceMe.swift */; };
+		484CB6E0F8870C161F2C967690CE9549 /* vlightText-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98388AF982BC77FD71568B03D66819C /* vlightText-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB36AFB98DC3450AE18929CD52E6CAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		85C5D2AA08E6B19FD0F1AFE118219B0F /* Pods-vlightText_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB39C49FDE22668D90EF3EFDDB4EEF1D /* Pods-vlightText_Example-dummy.m */; };
+		9A349939970B439B943E0095ED006A72 /* Pods-vlightText_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA469641DE649A3F7F1BFF7E99B2193 /* Pods-vlightText_Tests-dummy.m */; };
+		A7AFF5723F974846FB4136F1E4E77FDE /* Pods-vlightText_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B661B5B2F73391D564EB2EF1D5BA5E44 /* Pods-vlightText_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3B63CD63A81B8007C052328D91D310F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB1E0C92D1AE3DC328A7D6457AE5E640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C43E6E3A9C1F682301C8EFCC80AF035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D347C5C01EEBF825CF6AB88142753270;
+			remoteInfo = "Pods-vlightText_Example";
+		};
+		579C7B56AF8B961C3F5047D02B2438BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE3505838097866F95E950EBEC3EBEF;
+			remoteInfo = vlightText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A7FF9D8A8D0343534659EA79C7008BB /* Pods-vlightText_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlightText_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1F38A9281EBC895BE594598598169009 /* Pods-vlightText_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlightText_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35770D1219E04EFFD9CE5FB463386488 /* vlightText.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = vlightText.modulemap; sourceTree = "<group>"; };
+		3690FE83AD9CA318FEDD5782D424712C /* vlightText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlightText.debug.xcconfig; sourceTree = "<group>"; };
+		3F49882F69EE3D39ECD8D033C17C9826 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		424E2D2A75E11655A5146CCC74745C3B /* Pods-vlightText_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-vlightText_Example-frameworks.sh"; sourceTree = "<group>"; };
+		42AE8B982814717ECD656FBF1E7A3734 /* Pods-vlightText_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vlightText_Example.modulemap"; sourceTree = "<group>"; };
+		4CEEC4DEB8A021726EBAADB15326195C /* vlightText */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = vlightText; path = vlightText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD2D4A30E7DB6BFFE82ECB99F4A5DFA /* Pods-vlightText_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlightText_Example.release.xcconfig"; sourceTree = "<group>"; };
+		505F9208CEE37E7937EF701588AD350A /* Pods-vlightText_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-vlightText_Example"; path = Pods_vlightText_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630F7799FABB120519E923E4F3CB8975 /* Pods-vlightText_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vlightText_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66A2BFF3B722F2E0B51CFB5C289C1A15 /* Pods-vlightText_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-vlightText_Tests.modulemap"; sourceTree = "<group>"; };
+		69E21FBEB85CCDBFE4EFBC8BC949DB1E /* vlightText-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "vlightText-dummy.m"; sourceTree = "<group>"; };
+		6E26E712F157CBBDE1237F67D5C975CF /* Pods-vlightText_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlightText_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8BBE9D2DDA21519BC01316C873BA5626 /* Pods-vlightText_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlightText_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		98E2C483AD198519BE9990A9384AA1AC /* Pods-vlightText_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlightText_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB8D2D9C70F07772EA0AFD28F1F43327 /* vlightText-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlightText-prefix.pch"; sourceTree = "<group>"; };
+		ABF587BCFE5A8570F8504C60A0093A84 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = vlightText/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ADB64B06B6C0CE824745EEB2DE476CF4 /* Pods-vlightText_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vlightText_Example-umbrella.h"; sourceTree = "<group>"; };
+		AEA0027A9FBD908903F324564E320FE4 /* Pods-vlightText_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-vlightText_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B40AFE986535FD4F5328F251F39C2500 /* Pods-vlightText_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-vlightText_Tests"; path = Pods_vlightText_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B661B5B2F73391D564EB2EF1D5BA5E44 /* Pods-vlightText_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-vlightText_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B6B8CE5F463B62E7F5C1ED8BABA53DE8 /* vlightText.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = vlightText.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C803323088F7ACC9486037A0D5226BDB /* vlightText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = vlightText.release.xcconfig; sourceTree = "<group>"; };
+		CAA469641DE649A3F7F1BFF7E99B2193 /* Pods-vlightText_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vlightText_Tests-dummy.m"; sourceTree = "<group>"; };
+		CB39C49FDE22668D90EF3EFDDB4EEF1D /* Pods-vlightText_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-vlightText_Example-dummy.m"; sourceTree = "<group>"; };
+		CB8B5FFA893A874AE81086D1C6A8CF49 /* Pods-vlightText_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-vlightText_Example-Info.plist"; sourceTree = "<group>"; };
+		D98388AF982BC77FD71568B03D66819C /* vlightText-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "vlightText-umbrella.h"; sourceTree = "<group>"; };
+		F173F9FBBA6C7D22E7962EF2F0B8F273 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F1D47DDEE8BF5F9390FA3008482D42B9 /* Pods-vlightText_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-vlightText_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F4B6352AA68FEAD360567249890AFCC9 /* vlightText-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "vlightText-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ADC1B55CEABFF9D6FBB5B76035AC99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB36AFB98DC3450AE18929CD52E6CAA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FE2F2C77E6D36830B1B1F59C6B7082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB1E0C92D1AE3DC328A7D6457AE5E640 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AB310DDF32E9E173AB88C328EE8D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B63CD63A81B8007C052328D91D310F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03B294D2221DC8F0BDF6A40C9B91F5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				505F9208CEE37E7937EF701588AD350A /* Pods-vlightText_Example */,
+				B40AFE986535FD4F5328F251F39C2500 /* Pods-vlightText_Tests */,
+				4CEEC4DEB8A021726EBAADB15326195C /* vlightText */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04588E6689B633DF88A4673E86E4385F /* vlightText */ = {
+			isa = PBXGroup;
+			children = (
+				ABF587BCFE5A8570F8504C60A0093A84 /* ReplaceMe.swift */,
+				E23E90F563CFD93998492377B6183C3E /* Pod */,
+				875D955AEECFCEA6DC6C8C227F9F3F57 /* Support Files */,
+			);
+			name = vlightText;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		171D9D8FE6A87070EDCF4DE62EC96768 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A48D4C6B36EFD2DBA9C2D991D8A2FE3 /* Pods-vlightText_Example */,
+				8CA61554FD266405C443FCC50D92F622 /* Pods-vlightText_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A48D4C6B36EFD2DBA9C2D991D8A2FE3 /* Pods-vlightText_Example */ = {
+			isa = PBXGroup;
+			children = (
+				42AE8B982814717ECD656FBF1E7A3734 /* Pods-vlightText_Example.modulemap */,
+				630F7799FABB120519E923E4F3CB8975 /* Pods-vlightText_Example-acknowledgements.markdown */,
+				6E26E712F157CBBDE1237F67D5C975CF /* Pods-vlightText_Example-acknowledgements.plist */,
+				CB39C49FDE22668D90EF3EFDDB4EEF1D /* Pods-vlightText_Example-dummy.m */,
+				424E2D2A75E11655A5146CCC74745C3B /* Pods-vlightText_Example-frameworks.sh */,
+				CB8B5FFA893A874AE81086D1C6A8CF49 /* Pods-vlightText_Example-Info.plist */,
+				ADB64B06B6C0CE824745EEB2DE476CF4 /* Pods-vlightText_Example-umbrella.h */,
+				1A7FF9D8A8D0343534659EA79C7008BB /* Pods-vlightText_Example.debug.xcconfig */,
+				4FD2D4A30E7DB6BFFE82ECB99F4A5DFA /* Pods-vlightText_Example.release.xcconfig */,
+			);
+			name = "Pods-vlightText_Example";
+			path = "Target Support Files/Pods-vlightText_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7022DF56561985E7CDF918854A76E69B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04588E6689B633DF88A4673E86E4385F /* vlightText */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		875D955AEECFCEA6DC6C8C227F9F3F57 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				35770D1219E04EFFD9CE5FB463386488 /* vlightText.modulemap */,
+				69E21FBEB85CCDBFE4EFBC8BC949DB1E /* vlightText-dummy.m */,
+				F4B6352AA68FEAD360567249890AFCC9 /* vlightText-Info.plist */,
+				AB8D2D9C70F07772EA0AFD28F1F43327 /* vlightText-prefix.pch */,
+				D98388AF982BC77FD71568B03D66819C /* vlightText-umbrella.h */,
+				3690FE83AD9CA318FEDD5782D424712C /* vlightText.debug.xcconfig */,
+				C803323088F7ACC9486037A0D5226BDB /* vlightText.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/vlightText";
+			sourceTree = "<group>";
+		};
+		8CA61554FD266405C443FCC50D92F622 /* Pods-vlightText_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				66A2BFF3B722F2E0B51CFB5C289C1A15 /* Pods-vlightText_Tests.modulemap */,
+				AEA0027A9FBD908903F324564E320FE4 /* Pods-vlightText_Tests-acknowledgements.markdown */,
+				1F38A9281EBC895BE594598598169009 /* Pods-vlightText_Tests-acknowledgements.plist */,
+				CAA469641DE649A3F7F1BFF7E99B2193 /* Pods-vlightText_Tests-dummy.m */,
+				98E2C483AD198519BE9990A9384AA1AC /* Pods-vlightText_Tests-Info.plist */,
+				B661B5B2F73391D564EB2EF1D5BA5E44 /* Pods-vlightText_Tests-umbrella.h */,
+				8BBE9D2DDA21519BC01316C873BA5626 /* Pods-vlightText_Tests.debug.xcconfig */,
+				F1D47DDEE8BF5F9390FA3008482D42B9 /* Pods-vlightText_Tests.release.xcconfig */,
+			);
+			name = "Pods-vlightText_Tests";
+			path = "Target Support Files/Pods-vlightText_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7022DF56561985E7CDF918854A76E69B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				03B294D2221DC8F0BDF6A40C9B91F5FB /* Products */,
+				171D9D8FE6A87070EDCF4DE62EC96768 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E23E90F563CFD93998492377B6183C3E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F173F9FBBA6C7D22E7962EF2F0B8F273 /* LICENSE */,
+				3F49882F69EE3D39ECD8D033C17C9826 /* README.md */,
+				B6B8CE5F463B62E7F5C1ED8BABA53DE8 /* vlightText.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B17DF6B450010392193DFDB5869764B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AFF5723F974846FB4136F1E4E77FDE /* Pods-vlightText_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAAF7C7BFAD09A97CB2A41E61E72DE14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2976E3B8432BA474BCEE94304DF66F0D /* Pods-vlightText_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA80041026E88FF1D28707EFD3C7827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484CB6E0F8870C161F2C967690CE9549 /* vlightText-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1265EAF445DCB5DEDAB7E8E3FF912089 /* Pods-vlightText_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C27A7AD78ABA56875A184E3930FC977B /* Build configuration list for PBXNativeTarget "Pods-vlightText_Tests" */;
+			buildPhases = (
+				8B17DF6B450010392193DFDB5869764B /* Headers */,
+				DF02CB0D52F120360A8B026C2CE4621B /* Sources */,
+				C6FE2F2C77E6D36830B1B1F59C6B7082 /* Frameworks */,
+				C734DB74B7BB962D4AD3E977AC426A69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0359B30B3EB2CB4666DD07B4D9F70A6B /* PBXTargetDependency */,
+			);
+			name = "Pods-vlightText_Tests";
+			productName = Pods_vlightText_Tests;
+			productReference = B40AFE986535FD4F5328F251F39C2500 /* Pods-vlightText_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEE3505838097866F95E950EBEC3EBEF /* vlightText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E890352AC3A35F9D4019A8DE8A446CAB /* Build configuration list for PBXNativeTarget "vlightText" */;
+			buildPhases = (
+				DBA80041026E88FF1D28707EFD3C7827 /* Headers */,
+				B2FA5D5C3AC7D68831DE4BB82D106037 /* Sources */,
+				9ADC1B55CEABFF9D6FBB5B76035AC99D /* Frameworks */,
+				484933EC1AF8E4E024326F31EF175A1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vlightText;
+			productName = vlightText;
+			productReference = 4CEEC4DEB8A021726EBAADB15326195C /* vlightText */;
+			productType = "com.apple.product-type.framework";
+		};
+		D347C5C01EEBF825CF6AB88142753270 /* Pods-vlightText_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6648567BD480D07751476396E0904514 /* Build configuration list for PBXNativeTarget "Pods-vlightText_Example" */;
+			buildPhases = (
+				DAAF7C7BFAD09A97CB2A41E61E72DE14 /* Headers */,
+				4D6D1B4AC6EF167A250CF9C0109E6A1C /* Sources */,
+				E9AB310DDF32E9E173AB88C328EE8D8A /* Frameworks */,
+				96DB1952A191FB006E8D6B88C8C00A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4357927065BD16B48F4227DA29D86DD0 /* PBXTargetDependency */,
+			);
+			name = "Pods-vlightText_Example";
+			productName = Pods_vlightText_Example;
+			productReference = 505F9208CEE37E7937EF701588AD350A /* Pods-vlightText_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 03B294D2221DC8F0BDF6A40C9B91F5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D347C5C01EEBF825CF6AB88142753270 /* Pods-vlightText_Example */,
+				1265EAF445DCB5DEDAB7E8E3FF912089 /* Pods-vlightText_Tests */,
+				CEE3505838097866F95E950EBEC3EBEF /* vlightText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484933EC1AF8E4E024326F31EF175A1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96DB1952A191FB006E8D6B88C8C00A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C734DB74B7BB962D4AD3E977AC426A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6D1B4AC6EF167A250CF9C0109E6A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85C5D2AA08E6B19FD0F1AFE118219B0F /* Pods-vlightText_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2FA5D5C3AC7D68831DE4BB82D106037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FBCA36FFAE4C91A30F3570BADDFD25 /* ReplaceMe.swift in Sources */,
+				2B01589F571CA23FA806C42746DCE220 /* vlightText-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF02CB0D52F120360A8B026C2CE4621B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A349939970B439B943E0095ED006A72 /* Pods-vlightText_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0359B30B3EB2CB4666DD07B4D9F70A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-vlightText_Example";
+			target = D347C5C01EEBF825CF6AB88142753270 /* Pods-vlightText_Example */;
+			targetProxy = 3C43E6E3A9C1F682301C8EFCC80AF035 /* PBXContainerItemProxy */;
+		};
+		4357927065BD16B48F4227DA29D86DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = vlightText;
+			target = CEE3505838097866F95E950EBEC3EBEF /* vlightText */;
+			targetProxy = 579C7B56AF8B961C3F5047D02B2438BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		039F25EEA380417CF382B0C2FC6CE31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BBE9D2DDA21519BC01316C873BA5626 /* Pods-vlightText_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vlightText_Tests/Pods-vlightText_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vlightText_Tests/Pods-vlightText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2363140A97A74F56B4DEFCD12DD0EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7FF9D8A8D0343534659EA79C7008BB /* Pods-vlightText_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vlightText_Example/Pods-vlightText_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vlightText_Example/Pods-vlightText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49B121B9F9BB4AFEBF94CA09119B2287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FD2D4A30E7DB6BFFE82ECB99F4A5DFA /* Pods-vlightText_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vlightText_Example/Pods-vlightText_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vlightText_Example/Pods-vlightText_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61E11F9E72EDF53DC790E981E6B65F7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C803323088F7ACC9486037A0D5226BDB /* vlightText.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/vlightText/vlightText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vlightText/vlightText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vlightText/vlightText.modulemap";
+				PRODUCT_MODULE_NAME = vlightText;
+				PRODUCT_NAME = vlightText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		92492C20D411901161E309A87A7BBE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1D47DDEE8BF5F9390FA3008482D42B9 /* Pods-vlightText_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-vlightText_Tests/Pods-vlightText_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-vlightText_Tests/Pods-vlightText_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B239F88845F089A6C60850EE2A989C52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3690FE83AD9CA318FEDD5782D424712C /* vlightText.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/vlightText/vlightText-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/vlightText/vlightText-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/vlightText/vlightText.modulemap";
+				PRODUCT_MODULE_NAME = vlightText;
+				PRODUCT_NAME = vlightText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6648567BD480D07751476396E0904514 /* Build configuration list for PBXNativeTarget "Pods-vlightText_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2363140A97A74F56B4DEFCD12DD0EDC5 /* Debug */,
+				49B121B9F9BB4AFEBF94CA09119B2287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C27A7AD78ABA56875A184E3930FC977B /* Build configuration list for PBXNativeTarget "Pods-vlightText_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039F25EEA380417CF382B0C2FC6CE31C /* Debug */,
+				92492C20D411901161E309A87A7BBE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E890352AC3A35F9D4019A8DE8A446CAB /* Build configuration list for PBXNativeTarget "vlightText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B239F88845F089A6C60850EE2A989C52 /* Debug */,
+				61E11F9E72EDF53DC790E981E6B65F7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

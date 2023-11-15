@@ -1,0 +1,22 @@
+{
+  "name": "vlightText",
+  "version": "0.1.0",
+  "summary": "A short description of vlightText.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jqygithud/vlightText",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "632624982@qq.com": "632624982@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jqygithud/vlightText.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "vlightText/Classes/**/*"
+}
