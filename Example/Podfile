@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'vlightText_Example' do
+  pod 'vlightText', :path => '../'
+
+  target 'vlightText_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
